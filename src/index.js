@@ -9,20 +9,20 @@ const smallButtonSize = {
   borderRadius: '25px',
   padding: '0 20px',
   '& p': {
-    fontSize: '18px',
+    fontSize: '17px',
   },
   '& svg': {
-    fontSize: '18px',
+    fontSize: '17px',
   },
   [tablet_max]: { 
     height: '40px',
     lineHeight: '40px',
     padding: '0 18px',
     '& p': {
-      fontSize: '16px',
+      fontSize: '17px',
     },
     '& svg': {
-      fontSize: '16px',
+      fontSize: '17px',
     },
   },
   [phablet_max]: { 
@@ -91,12 +91,12 @@ const Button = styled.button({}, props => ({
   '& p': {
     fontWeight: 'bold',
     color: 'white',
-    fontSize: '22px',
+    fontSize: '21px',
     lineHeight: 'inherit',
     margin: '0',
   },
   '& svg': {
-    fontSize: '22px',
+    fontSize: '21px',
     lineHeight: 'inherit',
     margin: '0',
   },
@@ -116,10 +116,10 @@ const Button = styled.button({}, props => ({
     lineHeight: '52px',
     padding: '0 20px',
     '& p': {
-      fontSize: '18px',
+      fontSize: '17px',
     },
     '& svg': {
-      fontSize: '18px',
+      fontSize: '16px',
     },
   },
   [phone_max]: { 
@@ -128,7 +128,7 @@ const Button = styled.button({}, props => ({
     lineHeight: '45px',
     padding: '0 15px',
     '& p': {
-      fontSize: '16px',
+      fontSize: '17px',
     },
     '& svg': {
       fontSize: '16px',
