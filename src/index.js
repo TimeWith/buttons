@@ -83,7 +83,7 @@ const Button = styled.button({}, props => ({
   MozTransition: 'background-color 0.2s ease-out',
   Otransition: 'background-color 0.2s ease-out',
   transition: 'background-color 0.2s ease-out',
-  backgroundColor: props.disabled ? '#E3E2E3 !important' : '#E3E2E3', // optional disabled prop
+  backgroundColor: props.disabled ? '#cad9f1 !important' : '#E3E2E3',
   boxShadow: '0 2px 4px 0 rgba(0,0,0,0.17)',
   '& > *:first-child': {
     margin: props.noIcon ? '0' : '0 10px 0 0',
