@@ -86,7 +86,7 @@ const Button = styled.button({}, props => ({
   backgroundColor: props.disabled ? '#cad9f1 !important' : '#E3E2E3',
   boxShadow: '0 2px 4px 0 rgba(0,0,0,0.17)',
   '& > *:last-child': {
-    margin: props.noIcon ? '0' : '0 0 10px 0',
+    margin: props.noIcon ? '0' : '0 0 0 10px',
   },
   '& p': {
     fontWeight: 'bold',
