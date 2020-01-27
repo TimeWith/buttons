@@ -5,7 +5,6 @@ import { darken } from 'polished';
 
 const smallButtonSize = {
   height: '50px',
-  lineHeight: '50px',
   borderRadius: '25px',
   padding: '0 20px',
   '& p': {
@@ -16,7 +15,6 @@ const smallButtonSize = {
   },
   [tablet_max]: { 
     height: '40px',
-    lineHeight: '40px',
     padding: '0 18px',
     '& p': {
       fontSize: '17px',
@@ -27,7 +25,6 @@ const smallButtonSize = {
   },
   [phablet_max]: { 
     height: '35px',
-    lineHeight: '35px',
     padding: '0 18px',
     '& p': {
       fontSize: '15px',
@@ -39,7 +36,6 @@ const smallButtonSize = {
   [phone_max]: { 
     fontSize: '14px',
     height: '30px',
-    lineHeight: '30px',
     padding: '0 12px',
     '& p': {
       fontSize: '14px',
@@ -65,7 +61,6 @@ export const ButtonsRow = styled.div({}, props => ({
 const Button = styled.button({}, props => ({
   cursor: 'pointer',
   height: '66px',
-  lineHeight: '66px',
   borderRadius: '33px',
   textAlign: 'left',
   color: 'white',
@@ -92,17 +87,16 @@ const Button = styled.button({}, props => ({
     fontWeight: 'bold',
     color: 'white',
     fontSize: '21px',
-    lineHeight: 'inherit',
+    lineHeight: '100%',
     margin: '0',
   },
   '& svg': {
     fontSize: '21px',
-    lineHeight: 'inherit',
+    lineHeight: '100%',
     margin: '0',
   },
   [tablet_max]: { 
     height: '60px',
-    lineHeight: '60px',
     padding: '0 25px',
     '& p': {
       fontSize: '20px',
@@ -113,7 +107,6 @@ const Button = styled.button({}, props => ({
   },
   [phablet_max]: { 
     height: '52px',
-    lineHeight: '52px',
     padding: '0 20px',
     '& p': {
       fontSize: '17px',
@@ -125,7 +118,6 @@ const Button = styled.button({}, props => ({
   [phone_max]: { 
     fontSize: '15px',
     height: '45px',
-    lineHeight: '45px',
     padding: '0 15px',
     '& p': {
       fontSize: '17px',
